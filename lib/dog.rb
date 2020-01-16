@@ -8,12 +8,12 @@ class Dog
   
   def initialize(name)
     
-    def self.save
+    def save
      @@all << self
     end
     
     @name = name
-    self.save
+    @save = save
   end
   
   def self.all
