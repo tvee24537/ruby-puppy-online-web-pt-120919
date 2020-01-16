@@ -13,7 +13,7 @@ class Dog
     end
     
     @name = name
-    self.save
+    name.save
   end
   
   def self.all
